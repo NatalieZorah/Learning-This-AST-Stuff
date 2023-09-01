@@ -1,0 +1,14 @@
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\Learn To Regex.exe
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\Learn To Regex.deps.json
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\Learn To Regex.runtimeconfig.json
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\Learn To Regex.dll
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\Learn To Regex.pdb
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\Learn To Regex.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\Learn To Regex.AssemblyInfoInputs.cache
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\Learn To Regex.AssemblyInfo.cs
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\Learn To Regex.csproj.CoreCompileInputs.cache
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\Learn To Regex.dll
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\refint\Learn To Regex.dll
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\Learn To Regex.pdb
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\Learn To Regex.genruntimeconfig.cache
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\ref\Learn To Regex.dll

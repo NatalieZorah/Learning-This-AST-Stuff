@@ -1,0 +1,14 @@
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\LetsBuildAnAST.exe
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\LetsBuildAnAST.deps.json
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\LetsBuildAnAST.runtimeconfig.json
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\LetsBuildAnAST.dll
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\bin\Debug\net6.0\LetsBuildAnAST.pdb
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\LetsBuildAnAST.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\LetsBuildAnAST.AssemblyInfoInputs.cache
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\LetsBuildAnAST.AssemblyInfo.cs
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\LetsBuildAnAST.csproj.CoreCompileInputs.cache
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\LetsBuildAnAST.dll
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\refint\LetsBuildAnAST.dll
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\LetsBuildAnAST.pdb
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\LetsBuildAnAST.genruntimeconfig.cache
+D:\Git Repositories\Miscelaneous Projects\Learn To Regex\obj\Debug\net6.0\ref\LetsBuildAnAST.dll
