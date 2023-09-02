@@ -6,6 +6,35 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        TestLoop(10);
+    }
+
+    private static void TestLoop(int itterations = 1)
+    {
+        Stopwatch totalParsewatch = new Stopwatch();
+
+        Console.WriteLine(">>Calling methods to compile...");
+        RollDiceByString("1d20+5adv+4d6kh3-2d8kl1-4 -t Coen -c This is a comment", false);
+        ParseString("1d20+5adv+4d6kh3-2d8kl1-4 -t Coen -c This is a comment");
+        Console.WriteLine(">>Methods compiled...");
+
+        Console.WriteLine(">>Starting test...");
+        Console.WriteLine($">>Ticks per second: {Stopwatch.Frequency}");
+
+
+
+        totalParsewatch.Start();
+        for (int i = 0; i < itterations; i++)
+        {
+            ParseTest(false);
+        }
+        totalParsewatch.Stop();
+        Console.WriteLine($">>Total time to run {itterations} parses: {totalParsewatch.ElapsedMilliseconds} ms");
+    }
+
+
+    private static void ParseTest(bool printProcessedStrings)
+    {
         string[] diceStrings = new string[10] {
             "1d20+5adv+4d6kh3-2d8kl1-4 -t Coen -c This is a comment",
             "2d8+9+2d4kh1-3d8kl2 -t Hue-Mann -c Fuck that guy",
@@ -19,14 +48,13 @@ internal class Program
             "12d12+11d10-8d6-2+1d20adv"
         };
 
-        Console.WriteLine(">>Starting test:");
         Stopwatch regexWatch = Stopwatch.StartNew();
         foreach (string diceString in diceStrings)
         {
-            RollDiceByString(diceString);
+            RollDiceByString(diceString, printProcessedStrings);
         }
         regexWatch.Stop();
-        Console.WriteLine($">>Total time to parse {diceStrings.Length} rolls with Regex: {regexWatch.ElapsedMilliseconds} ms");
+        Console.WriteLine($">>Total time to parse {diceStrings.Length} rolls with Regex: {regexWatch.ElapsedTicks} ticks");
 
         Stopwatch parserWatch = Stopwatch.StartNew();
         foreach (string diceString in diceStrings)
@@ -34,7 +62,7 @@ internal class Program
             ParseString(diceString);
         }
         parserWatch.Stop();
-        Console.WriteLine($">>Total time to parse {diceStrings.Length} rolls with Parser: {parserWatch.ElapsedMilliseconds} ms");
+        Console.WriteLine($">>Total time to parse {diceStrings.Length} rolls with Parser: {parserWatch.ElapsedTicks} ticks");
     }
 }
 //foreach (Token token in ParseString(diceString2))
